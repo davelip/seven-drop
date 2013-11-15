@@ -42,4 +42,4 @@
 # $sites['devexample.com'] = 'example.com';
 // smartsite
 $sites['sevendrop.nbx-lippi'] = 'sevendrop';
-$sites['sevendrop.david-test'] = 'sevendrop.david-test';
+$sites['sevendrop.david-test'] = 'sevendrop.david-test.dev.softecspa.it';
