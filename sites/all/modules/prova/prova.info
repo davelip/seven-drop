@@ -1,0 +1,11 @@
+name = Prova
+description = blah blah blah
+package = Example modules
+core = 7.x
+
+; Information added by drupal.org packaging script on 2013-06-12
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "prova"
+datestamp = "1370999542"
+

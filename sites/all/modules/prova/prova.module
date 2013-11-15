@@ -1,0 +1,43 @@
+<?php
+// $Id$
+
+function prova_menu() {
+    $items['prova'] = array(
+      'page callback' => 'prova_ciao_rest',
+      'access callback' => TRUE,
+    );
+    return $items;
+}
+
+function prova_ciao_rest() {
+    $json = $_GET['json'];
+  if (!$json) {
+    echo('Parametro vuoto');
+    die();
+  }
+  $sText = json_decode($json);
+  file_put_contents('/tmp/rest.txt', print_r($sText, TRUE), FILE_APPEND);
+  print_r($sText);
+  die();
+}
+
+/**
+* Implementation of hook_xmlrpc().
+* Map external names of XML-RPC methods to PHP callback functions.
+*/
+function prova_xmlrpc() {
+  $methods['prova.ciao'] = 'prova_ciao';
+  return $methods;
+}
+
+/**
+* Greet a user.
+*/
+function prova_ciao($json) {
+  if (!$json) {
+    return xmlrpc_error(1, 'Parametro vuoto');
+  }
+  $sText = json_decode($json);
+  file_put_contents('/tmp/xmlrpc.txt', print_r($sText, TRUE), FILE_APPEND);
+  return $sText;
+}

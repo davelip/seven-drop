@@ -1,0 +1,15 @@
+ckeditor https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/ckeditor
+ctools https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/ctools
+elysia_cron https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/elysia_cron
+email_registration https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/email_registration
+entity https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/entity
+legal https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/legal
+libraries https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/libraries
+masquerade https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/masquerade
+memcache https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/memcache
+nagios https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/nagios
+pathauto https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/pathauto
+token https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/token
+transliteration https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/transliteration
+varnish https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/varnish
+views https://svn.softecspa.it/drupalseven/trunk/drupalextra/modules/views
