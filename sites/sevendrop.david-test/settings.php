@@ -215,9 +215,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'sevendrop',
-      'username' => 'sevendrop',
-      'password' => 'sevendrop',
+      'database' => 'seven_drop',
+      'username' => 'root',
+      'password' => 'root',
       'host' => 'ip-10-33-165-208.eu-west-1.compute.internal',
       'port' => '',
       'driver' => 'mysql',
